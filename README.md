@@ -1,3 +1,5 @@
+<img src="http://i.imgur.com/5dftNjM.png" alt="Main UI" width="300px"/>
+
 # Android-ToDo
 A complete Android App, originally built to help Erasmus students manage their Erasmus Application Process.
 
