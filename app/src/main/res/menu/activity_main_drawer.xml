@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      android:checkableBehavior="single">
+
+    <item
+        android:icon="@drawable/ic_home_button"
+        android:checked="true"
+        android:title="@string/home_screen"/>
+    <item
+        android:id="@+id/steps_list"
+        android:icon="@drawable/ic_steps_list_button"
+        android:title="@string/steps_list_student"/>
+    <item
+        android:id="@+id/campusMap"
+        android:icon="@drawable/ic_maps_button"
+        android:title="@string/campusMap"/>
+    <item
+        android:id="@+id/dates"
+        android:icon="@drawable/ic_dates_icon"
+        android:visible="false"
+        android:title="@string/dates"/>
+    <item
+        android:id="@+id/faq"
+        android:icon="@drawable/ic_help_button"
+        android:title="@string/faq"/>
+    <item
+        android:id="@+id/contact"
+        android:icon="@drawable/ic_contact_us_icon"
+        android:title="@string/contact"/>
+    <item
+        android:id="@+id/settings"
+        android:icon="@drawable/ic_settings_button"
+        android:title="@string/settings"/>
+
+    <item
+        android:id="@+id/about"
+        android:icon="@drawable/about_icon"
+        android:title="@string/about"/>
+</menu>
+

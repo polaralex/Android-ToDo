@@ -1,0 +1,110 @@
+<data>
+    <internship>
+
+        <step name="Speak to your Home University" description="Every University has its own procedures for the Erasmus programme. Find your University's Erasmus Office and discuss with them your possibility of joining the program." group="Application Process"
+              url="">
+        </step>
+
+        <step name="Send us an official nomination" description="Your Erasmus International Relations office should sent us an email with the following information:
+\n \n
+1. Name and surname of the incoming student \n \n
+2. Gender \n \n
+3. Home University and country \n \n
+4. Inter –Institutional Agreement through which the proposed mobility will be realized \n\n
+5. Mobility scheme (whether studies or traineeship) \n\n
+6. Cycle of studies (whether undergraduate, postgraduate, PhD) \n\n
+7. Field of studies \n\n
+8. 1st or 2nd semester 2017/18 (the duration of studies, and thus stay at the UoI, is defined by the academic calendar below) \n\n
+9. Contact information (valid e-mail address, valid tel. number) \n\n
+Nomination Deadline: \n
+· 1th June for the 1st semester (commencing early October ) or the full academic year \n
+· 30th November for the 2nd semester (commencing mid-February)" group="Application Process"
+              url="mailto:mtzima@cc.uoi.gr">
+        </step>
+
+        <step name="Receive our confirmation email" description="When everything is complete, you will receive a confirmation letter from the Erasmus Office of University of Ioannina. After this, you are considered accepted as an Erasmus incoming student." group="Application Process"
+              url="">
+        </step>
+
+        <step name="Apply for Accommodation" description=" " group="Application Process"
+              url="">
+        </step>
+
+        <step name="Complete the required documents" description="Please email us completed and signed scanned copies of: \n\n
+
+1. Learning Agreement with proposed programme of study signed by the home institution. Training Agreement with proposed programme of internship signed by home institution (in the original). learning agreement for studies and learning agreement for traineeship \n\n
+2. Transcript of records \n\n
+3. Proof of sufficient language skills in the English language \n\n
+Required level of English: at least level B1 as defined by the Common European Framework of Reference for Languages (CEFR) – http://www.coe.int/t/dg4/linguistic/source/framework_en.pdf A level B2 is strongly recommended, particularly for those taking Master level courses.
+\n\n
+The student’s nomination should be supported by a recognized English certification. Alternatively proof of sufficient level of competence in the English language should be submitted." group="Application Process"
+              url="">
+        </step>
+
+        <step name="Receive Countersigned Documents" description="After the completion of all previous steps, you will receive all the documents signed by the Erasmus Office of University of Ioannina. Now, the process is complete." group="Application Process"
+              url="">
+        </step>
+
+        <step name="Arrive!" description="You are now an Erasmus Student in our University. Welcome to Ioannina - and don't forget to enjoy your time here!" group="Application Process"
+              url="">
+        </step>
+
+    </internship>
+
+    <studying>
+
+        <step name="Speak to your Home University" description="Every University has its own procedures for the Erasmus programme. Find your University's Erasmus Office and discuss with them your possibility of joining the program." group="Application Process"
+              url="">
+        </step>
+
+        <step name="Send us an official nomination" description="Your Erasmus International Relations office should sent us an email with the following information:
+\n \n
+1. Name and surname of the incoming student \n \n
+2. Gender \n \n
+3. Home University and country \n \n
+4. Inter –Institutional Agreement through which the proposed mobility will be realized \n\n
+5. Mobility scheme (whether studies or traineeship) \n\n
+6. Cycle of studies (whether undergraduate, postgraduate, PhD) \n\n
+7. Field of studies \n\n
+8. 1st or 2nd semester 2017/18 (the duration of studies, and thus stay at the UoI, is defined by the academic calendar below) \n\n
+9. Contact information (valid e-mail address, valid tel. number) \n\n
+Nomination Deadline: \n
+· 1th June for the 1st semester (commencing early October ) or the full academic year \n
+· 30th November for the 2nd semester (commencing mid-February)" group="Application Process"
+              url="mailto:mtzima@cc.uoi.gr">
+        </step>
+
+        <step name="Complete the required documents" description="Please email us completed and signed scanned copies of: \n\n
+
+1. Learning Agreement with proposed programme of study signed by the home institution. Training Agreement with proposed programme of internship signed by home institution (in the original). learning agreement for studies and learning agreement for traineeship \n\n
+2. Transcript of records \n\n
+3. Proof of sufficient language skills in the English language \n\n
+Required level of English: at least level B1 as defined by the Common European Framework of Reference for Languages (CEFR) – http://www.coe.int/t/dg4/linguistic/source/framework_en.pdf A level B2 is strongly recommended, particularly for those taking Master level courses.
+\n
+The student’s nomination should be supported by a recognized English certification. Alternatively proof of sufficient level of competence in the English language should be submitted." group="Application Process"
+              url="">
+        </step>
+
+        <step name="Receive our confirmation email" description="When everything is complete, you will receive a confirmation letter from the Erasmus Office of University of Ioannina. After this, you are considered accepted as an Erasmus incoming student." group="Application Process"
+              url="">
+        </step>
+
+        <step name="Arrange Visa/Entry clearance" description="If you live outside a European Union country, you will have to obtain a Visa or Entry Clearance. You can find more information at the provided link." group="Application Process"
+              url="">
+        </step>
+
+        <step name="Apply for Accommodation" description="As an Erasmus Student, you are eligible for accomodation at the University Campus. For more information visit the link." group="Application Process"
+              url="">
+        </step>
+
+        <step name="Receive Countersigned Documents" description="After the completion of all previous steps, you will receive all the documents signed by the Erasmus Office of University of Ioannina. Now, the process is complete." group="Application Process"
+              url="">
+        </step>
+
+        <step name="Arrive!" description="You are now an Erasmus Student in our University. Welcome to Ioannina - and don't forget to enjoy your time here!" group="Application Process"
+              url="">
+        </step>
+
+    </studying>
+
+</data>

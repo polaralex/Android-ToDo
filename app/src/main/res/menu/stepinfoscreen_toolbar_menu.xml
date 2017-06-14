@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/menuItem_setNotification"
+        android:icon="@drawable/ic_alarm_add_white"
+        app:showAsAction="ifRoom"
+        android:title="@string/set_notification">
+    </item>
+
+</menu>

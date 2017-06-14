@@ -1,0 +1,29 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="vertical"
+              android:padding="@dimen/mediumplus_padding_for_text_elements"
+              android:background="?android:attr/selectableItemBackground"
+              android:clickable="false"
+              android:contextClickable="false"
+              android:focusable="false"
+              android:focusableInTouchMode="false"
+              android:longClickable="false">
+
+    <TextView android:id="@+id/stepTitle"
+              android:textSize="@dimen/secondary_title"
+              android:textStyle="bold"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:text="@string/step_title"
+              android:textColor="@color/material_blue_grey_950"/>
+
+    <TextView android:id="@+id/stepInfoDescription"
+              android:textSize="@dimen/text_content"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:text="@string/step_description"
+              android:ellipsize="end"
+              android:maxLines="2"/>
+
+</LinearLayout>

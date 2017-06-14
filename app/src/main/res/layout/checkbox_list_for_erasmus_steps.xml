@@ -1,0 +1,28 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:minHeight="72dp"
+              android:orientation="horizontal"
+              android:padding="@dimen/medium_padding_for_list_elements"
+              android:layout_gravity="center"
+              android:background="?android:attr/selectableItemBackground"
+              android:focusable="true">
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:id="@+id/steps_list_checkbox"
+        android:paddingRight="@dimen/medium_padding_for_list_elements"
+        android:layout_gravity="center"/>
+
+    <TextView android:id="@+id/stepTitle"
+              android:textSize="@dimen/secondary_title"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:clickable="false"
+              android:focusable="false"
+              android:text="@string/step_title"
+              android:textColor="@color/black"
+              android:layout_gravity="center_vertical"/>
+
+</LinearLayout>

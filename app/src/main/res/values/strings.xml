@@ -1,0 +1,124 @@
+<resources>
+    <string name="app_name">Erasmus UOI App</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="title_activity_main4">Website</string>
+    <string name="title_activity_erasmus_app">Steps</string>
+    <string name="steps_list_student">Steps List</string>
+    <string name="title_activity_name_input" translatable="false">NameInput</string>
+    <string name="faq">Frequently Asked Questions</string>
+    <string name="contact">Contact</string>
+    <string name="campusMap">Campus Map</string>
+    <string name="erasmus_intro_descr_1">This app will help you go through the steps to complete your Erasmus application.</string>
+    <string name="intro_slider_title_2">How it works?</string>
+    <string name="intro_description_3rd_page">When you\'re ready, click "Next".</string>
+    <string name="main_header_title">Hello!</string>
+    <string name="title_activity_help">Help</string>
+    <string name="set_a_notification_date">Set a notification date:</string>
+    <string name="set_timer">Set</string>
+    <string name="card_title">Card Title</string>
+    <string name="card_description">Card description</string>
+    <string name="whats_your_name">What\'s your name?</string>
+    <string name="enter_your_name_here">Enter your name here</string>
+    <string name="next">Next</string>
+    <string name="are_you_an_incoming_or_outgoing_student">Are you a student of University of Ioannina?</string>
+    <string name="welcome_to_erasmus_app">Welcome!</string>
+    <string name="are_you_ready">Ready?</string>
+    <string name="what_s_your_email">What\'s your email?</string>
+    <string name="enter_your_email_here">Enter your email here</string>
+    <string name="step_name">Step Name</string>
+    <string name="step_description">Step Description</string>
+    <string name="step_title">Step Title</string>
+    <string name="home_screen">Home</string>
+    <string name="settings">Settings</string>
+    <string name="set_notification">Add to calendar</string>
+    <string name="intro_slider_description_2">First you will create your profile and then the app will show you a list of steps for your Erasmus application.</string>
+    <string name="erasmus_reminder">Erasmus reminder: </string>
+    <string name="incoming_student">No, I am incoming</string>
+    <string name="outgoing_student">Yes, I study here</string>
+    <string name="studying_button">Studying</string>
+    <string name="internship_button">Internship</string>
+    <string name="personal_input_data_error">You have to enter your correct personal data.</string>
+    <string name="user_orientation_description">If you are coming from another University as an Erasmus student, please select "No".</string>
+    <string name="type_chooser_description">Are you planning to apply for a studying or an internship Erasmus position?</string>
+
+    <string name="set_notification_title">Add this Step to the calendar</string>
+    <string name="continue_button">Continue</string>
+    <string name="confirmation_fragment_text">Now, you can find a list of all the steps you have to take to apply for your Erasmus position. Good luck!</string>
+    <string name="confirmation_fragment_title">You are ready!</string>
+    <string name="activity_contact_title">Do you need more help?</string>
+    <string name="activity_contact_description">You can always contact the Erasmus office in the following ways:</string>
+    <string name="call_us">Call us:</string>
+    <string name="telephone_number" translatable="false">+300000000</string>
+    <string name="mail_us">Mail us:</string>
+    <string name="office_email" translatable="false">test@test.com</string>
+    <string name="visit_us">Visit us:</string>
+    <string name="office_address">Central Offices, University of Ioannina</string>
+    <string name="surname_input">Enter your surname here!</string>
+    <string name="erasmus_type_input_title">What\'s your Erasmus type?</string>
+    <string name="main_header_subtitle">Data uploaded</string>
+    <string name="name_of_place">Name of Place</string>
+    <string name="department_user_input_title">What\'s your department?</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment" translatable="false">Hello blank fragment</string>
+    <string name="email_input_description">Your email must be in the form of address@example.com</string>
+    <string name="incoming_user_fill_data_tip">Please fill the following data:</string>
+    <string name="incoming_user_fragment_description">These data will help the Erasmus Office to contact you with helpful, personal emails about your application.</string>
+    <string name="country">Country</string>
+    <string name="nationality">Nationality</string>
+    <string name="home_institution">Home Institution</string>
+    <string name="study_field">Study Field</string>
+    <string name="study_cycle">Study Cycle</string>
+    <string name="no_user_data_available">No User Data Available.</string>
+    <string name="close">Close</string>
+    <string name="logout">Logout</string>
+    <string name="description">Description</string>
+    <string name="dates">Dates</string>
+    <string name="map" translatable="false">Map</string>
+    <string name="place_info" translatable="false">Place Info</string>
+    <string name="contact_activity">Contact</string>
+    <string name="steps">Steps</string>
+    <string name="step_info">Step Info</string>
+    <string name="erasmus_guide" translatable="false">Erasmus Guide</string>
+    <string name="data_upload_fragment_description">If you have already uploaded your data in the past, please uncheck the checkbox.</string>
+    <string name="upload_user_data_title">Upload your data?</string>
+    <string name="upload_user_data_checkbox">Upload my data to Erasmus office</string>
+    <string name="about">About</string>
+    <string name="settings_user_data_title">Show User Data</string>
+    <string name="settings_user_data_description">View your current user profile data</string>
+    <string name="settings_data_upload_status_title">Data Upload Status</string>
+    <string name="settings_restore_user_data">Reset User Data</string>
+    <string name="place1_name" translatable="false">Γραφείο Δημοσίων Σχέσεων</string>
+    <string name="place1_description" translatable="false">Εδώ βρίσκεται το Γραφείο που διαχειρίζεται το Πρόγραμμα Erasmus</string>
+    <string name="place2_name" translatable="false">Βιβλιοθήκη</string>
+    <string name="place2_description" translatable="false">Το Πανεπιστήμιο Ιωαννίνων διατηρεί μια από τις μεγαλύτερες βιβλιοθήκες των Βαλκανίων</string>
+    <string name="place3_name" translatable="false">Ιατρική Σχολή</string>
+    <string name="place4_name" translatable="false">Σχολή Μηχανικών Πληροφορικής</string>
+    <string name="place5_name" translatable="false">Τμήμα Χημείας</string>
+    <string name="place6_name" translatable="false">Τμήμα Μαθηματικών</string>
+    <string name="place7_name" translatable="false">Σχολή Επιστημών Αγωγής</string>
+    <string name="place8_name" translatable="false">Τμήμα Μαθηματικών</string>
+    <string name="place9_name" translatable="false">Κέντρο Ιωαννίνων</string>
+    <string name="place9_description" translatable="false">Εδώ βρίσκεται το κέντρο της πόλης των Ιωαννίνων</string>
+    <string name="settings_change_data">If you want to change your data, you have to \"Delete all Data\" and start over.</string>
+    <string name="delete_data_prompt">Are you sure that you want to delete your data? If you want to use the app again, you will have to start over</string>
+    <string name="delete_data_1">Delete all data</string>
+    <string name="delete_data_2">Click this button to delete all user data in this app.</string>
+    <string name="delete_all_data">DELETE ALL DATA</string>
+    <string name="cancel">CANCEL</string>
+    <string name="data_upload_1">Your profile data have been uploaded.</string>
+    <string name="upload_data_2">Your data will be used to contact you about possible Erasmus information.</string>
+    <string name="upload_data_3">Your profile data have not been uploaded yet.</string>
+    <string name="upload_data_4">Your data will be uploaded when an internet connection is available.</string>
+    <string name="upload_data_5">Your data have not been uploaded</string>
+    <string name="upload_data_6">You have chosen not to upload your data. Start over to change it.</string>
+    <string name="next_step_card_title">Next Step to do:</string>
+    <string name="next_to_do_card_no_more">No Steps available</string>
+    <string name="next_to_do_card_all_done">All steps are done!</string>
+    <string name="tip_1">Try to attend your department\'s Erasmus Meeting. There, you can solve any problem!</string>
+    <string name="tip_2">Check your email frequently. The Erasmus office will send you an update for every new deadline.</string>
+    <string name="tip_3">Don\'t forget to add a Step to your calendar by using the \'clock\' button.</string>
+</resources>

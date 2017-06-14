@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#000000</color>
+    <color name="almostWhite">#fafafa</color>
+    <color name="material_blue_100">#bbdefb</color>
+    <color name="materialgrey_300">#e0e0e0</color>
+    <color name="material_grey_400">#bdbdbd</color>
+    <color name="material_grey_700">#616161</color>
+    <color name="materialgrey_900">#212121</color>
+    <color name="teal_a700">#00BFA5</color>
+    <color name="deep_orange_300">#FF8A65</color>
+    <color name="holo_orange_darker">#dc6503</color>
+    <color name="green">#66bb6a</color>
+    <color name="green_darker">#43a047</color>
+    <!-- Europe Color Theme -->
+    <color name="primary">#ff9800</color>
+    <color name="europe_blue">#3f51b5</color>
+    <color name="europe_blue_darker">#283593</color>
+    <color name="red_accent">#f50057</color>
+    <color name="material_amber_100">#FFECB3</color>
+</resources>

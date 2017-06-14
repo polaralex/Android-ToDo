@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_height="fill_parent"
+            android:layout_width="fill_parent">
+
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:layout_gravity="center"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        tools:showIn="@layout/fragment_user_orientation">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/incoming_user_fill_data_tip"
+            android:id="@+id/titleDepartmentType"
+            android:textSize="28sp"
+            android:paddingTop="30dp"
+            android:padding="@dimen/normal_padding_for_text_elements"
+            android:textAlignment="center"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="16dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/incoming_user_details_subtitle"
+            android:text="@string/incoming_user_fragment_description"
+            android:textAlignment="center"
+            android:layout_below="@id/titleDepartmentType"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:paddingLeft="@dimen/normal_padding_for_text_elements"
+            android:paddingRight="@dimen/normal_padding_for_text_elements"
+            android:paddingBottom="@dimen/normal_padding_for_text_elements"/>
+
+        <android.support.v7.widget.AppCompatEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:hint="@string/country"
+            android:id="@+id/text_input_country"
+            android:layout_below="@+id/incoming_user_details_subtitle"
+            android:layout_centerHorizontal="true"/>
+
+        <android.support.v7.widget.AppCompatEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:hint="@string/nationality"
+            android:id="@+id/text_input_nationality"
+            android:layout_below="@+id/text_input_country"
+            android:layout_centerHorizontal="true"/>
+
+        <android.support.v7.widget.AppCompatEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:hint="@string/home_institution"
+            android:layout_below="@+id/text_input_nationality"
+            android:id="@+id/text_input_home_institution"
+            android:layout_centerHorizontal="true"/>
+
+        <android.support.v7.widget.AppCompatEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:hint="@string/study_field"
+            android:layout_below="@+id/text_input_home_institution"
+            android:id="@+id/text_input_study_field"
+            android:layout_centerHorizontal="true"/>
+
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/study_cycle_spinner"
+            android:text="@string/study_cycle"
+            android:padding="16dp"
+            android:layout_below="@id/text_input_study_field"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/continue_button"
+            android:id="@+id/incoming_user_details_next_button"
+            android:layout_below="@+id/study_cycle_spinner"
+            android:layout_alignEnd="@+id/study_cycle_spinner"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="@dimen/normal_padding_for_text_elements"/>
+
+    </RelativeLayout>
+
+</ScrollView>

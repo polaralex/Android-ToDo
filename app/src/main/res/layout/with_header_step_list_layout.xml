@@ -1,0 +1,17 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/steps_list_header_textview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/almostWhite"
+            android:padding="8dp"
+            android:textColor="@color/material_grey_700"
+            android:text="Steps Group:"/>
+
+    <include layout="@layout/checkbox_list_for_erasmus_steps"/>
+
+</LinearLayout>

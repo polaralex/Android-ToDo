@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools"
+           tools:ignore="MissingTranslation">
+    <string-array name="departments_array">
+        <item>Φιλολογίας</item>
+        <item>Ιστορίας και Αρχαιολογίας</item>
+        <item>Φιλοσοφίας, Παιδαγωγικής και Ψυχολογίας</item>
+        <item>Μαθηματικών</item>
+        <item>Φυσικής</item>
+        <item>Χημείας</item>
+        <item>Μηχανικών Ηλεκτρονικών Υπολογιστών και Πληροφορικής</item>
+        <item>Μηχανικών Επιστήμης Υλικών</item>
+        <item>Ιατρικής</item>
+        <item>Βιολογικών Εφαρμογών και Τεχνολογιών</item>
+        <item>Παιδαγωγικό Τμήμα Δημοτικής Εκπαίδευσης</item>
+        <item>Παιδαγωγικό Τμήμα Νηπιαγωγών</item>
+        <item>Οικονομικών Επιστημών</item>
+        <item>Πλαστικών Τεχνών και Επιστημών της Τέχνης</item>
+        <item>Αρχιτεκτόνων Μηχανικών</item>
+    </string-array>
+</resources>

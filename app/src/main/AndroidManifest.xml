@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest package="com.emexezidis.alex.ErasmusUoiApp"
+          xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/european_union_png_icon"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Europe.Light">
+
+        <activity
+            android:name="com.emexezidis.alex.ErasmusUoiApp.activities.MainScreen"
+            android:label="@string/erasmus_guide">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.emexezidis.alex.ErasmusUoiApp.activities.WebviewLoaderActivity"
+            android:label="@string/title_activity_main4"
+            android:parentActivityName="com.emexezidis.alex.ErasmusUoiApp.activities.MainScreen">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.emexezidis.alex.ErasmusUoiApp.activities.MainScreen"/>
+        </activity>
+        <activity
+            android:name="com.emexezidis.alex.ErasmusUoiApp.activities.StepsListActivity"
+            android:label="@string/title_activity_erasmus_app"
+            android:launchMode="singleTop"
+            android:windowSoftInputMode="adjustResize"
+            android:parentActivityName="com.emexezidis.alex.ErasmusUoiApp.activities.MainScreen">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.emexezidis.alex.ErasmusUoiApp.activities.MainScreen"/>
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.emexezidis.alex.ErasmusUoiApp.activities.UserDataInputActivity"
+            android:label="@string/title_activity_name_input"
+            android:windowSoftInputMode="adjustResize">
+        </activity>
+        <activity
+            android:name="com.emexezidis.alex.ErasmusUoiApp.activities.StepInfoScreen"
+            android:label="@string/step_info"
+            android:parentActivityName="com.emexezidis.alex.ErasmusUoiApp.activities.StepsListActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.emexezidis.alex.ErasmusUoiApp.activities.StepsListActivity"/>
+        </activity>
+        <activity android:name="com.emexezidis.alex.ErasmusUoiApp.services.NotificationManager"/>
+
+        <!--
+         The API key for Google Maps-based APIs is defined as a string resource.
+         (See the file "res/values/google_maps_api.xml").
+         Note that the API key is linked to the encryption key used to sign the APK.
+         You need a different API key for each encryption key, including the release key that is used to
+         sign the APK for publishing.
+         You can define the keys for the debug and release targets in src/debug/ and src/release/.
+        -->
+        <meta-data
+            android:name="com.google.android.maps.v2.API_KEY"
+            android:value="${mapApiKeyValue}"/>
+
+        <activity android:name="com.emexezidis.alex.ErasmusUoiApp.activities.ScreenSlidePagerActivity">
+        </activity>
+        <activity
+            android:name="com.emexezidis.alex.ErasmusUoiApp.activities.Settings"
+            android:label="@string/settings"
+            android:parentActivityName="com.emexezidis.alex.ErasmusUoiApp.activities.MainScreen">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.emexezidis.alex.ErasmusUoiApp.activities.MainScreen"/>
+        </activity>
+        <activity
+            android:name="com.emexezidis.alex.ErasmusUoiApp.activities.Help"
+            android:label="@string/faq"
+            android:parentActivityName="com.emexezidis.alex.ErasmusUoiApp.activities.MainScreen">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.emexezidis.alex.ErasmusUoiApp.activities.MainScreen"/>
+        </activity>
+        <activity
+            android:name="com.emexezidis.alex.ErasmusUoiApp.activities.Contact"
+            android:label="@string/contact_activity"
+            android:parentActivityName="com.emexezidis.alex.ErasmusUoiApp.activities.MainScreen">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.emexezidis.alex.ErasmusUoiApp.activities.MainScreen"/>
+        </activity>
+        <activity
+            android:name="com.emexezidis.alex.ErasmusUoiApp.activities.MapsActivity"
+            android:label="@string/map"
+            android:parentActivityName="com.emexezidis.alex.ErasmusUoiApp.activities.MainScreen">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.emexezidis.alex.ErasmusUoiApp.activities.MainScreen"/>
+        </activity>
+        <activity
+            android:name="com.emexezidis.alex.ErasmusUoiApp.activities.PlaceInfoScreen"
+            android:label="@string/place_info"
+            android:parentActivityName="com.emexezidis.alex.ErasmusUoiApp.activities.MapsActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.emexezidis.alex.ErasmusUoiApp.activities.MapsActivity"/>
+        </activity>
+        <activity android:name="com.emexezidis.alex.ErasmusUoiApp.activities.AboutScreen"
+                  android:label="About"
+                  android:parentActivityName="com.emexezidis.alex.ErasmusUoiApp.activities.MainScreen">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.emexezidis.alex.ErasmusUoiApp.activities.MainScreen"/>
+        </activity>
+        <activity android:name="com.emexezidis.alex.ErasmusUoiApp.activities.SemesterDates"
+                  android:label="Dates"
+                  android:parentActivityName="com.emexezidis.alex.ErasmusUoiApp.activities.MainScreen">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.emexezidis.alex.ErasmusUoiApp.activities.MainScreen"/>
+        </activity>
+    </application>
+
+</manifest>

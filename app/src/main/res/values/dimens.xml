@@ -1,0 +1,22 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <!-- Text Sizes -->
+    <dimen name="secondary_title">20sp</dimen>
+    <dimen name="text_content">15sp</dimen>
+    <!-- Paddings -->
+    <dimen name="medium_padding_for_list_elements">8dp</dimen>
+    <dimen name="mediumplus_padding_for_text_elements">12dp</dimen>
+    <dimen name="normal_padding_for_text_elements">15dp</dimen>
+    <dimen name="padding_for_intro_screens">20dp</dimen>
+    <dimen name="margin_for_intro_screen_imageviews">20dp</dimen>
+    <!-- Toolbars -->
+    <!-- Onboarding Slider -->
+    <dimen name="headline">24sp</dimen>
+    <!-- Cards -->
+    <dimen name="min_card_height">150dp</dimen>
+    <dimen name="intro_slider_image_size">120dp</dimen>
+</resources>
