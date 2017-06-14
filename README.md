@@ -1,5 +1,3 @@
-<img src="http://i.imgur.com/5dftNjM.png" alt="Main UI" width="300px"/>
-
 # Android-ToDo
 A complete Android App, originally built to help Erasmus students manage their Erasmus Application Process.
 
@@ -34,5 +32,8 @@ Now, if you want to use parts of it for your own app, I'd like it if you could l
 
 # Do you use any Open-Source code?
 The app compiles OkHttp through Gradle. 
+
+<img src="http://i.imgur.com/5dftNjM.png" alt="Main UI" width="300px"/>
+
 
 
