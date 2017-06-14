@@ -20,6 +20,7 @@ Things this app implements:
 - Data persistence using XML parsing/writing
 - A hacky way of uploading data to a custom Google Form through HTTP requests
 - One-click calendar notifications
+- Full Material Design
 
 # Where can I find the blog posts?
 Check my personal blog, at http://www.emexezidis.com.
