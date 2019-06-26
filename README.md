@@ -1,4 +1,4 @@
-# Process Onboarding App with Lists for Android-App
+# Process Onboarding App with Lists for Android
 A complete Android App, built to help university students manage their Erasmus Application Process. It guides the user through a series of steps, along with information for each of them and the ability to easily set calendar notifications.
 
 # So, what's this about?
