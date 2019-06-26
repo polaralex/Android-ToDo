@@ -1,5 +1,5 @@
-# Android-ToDo
-A complete Android App, originally built to help Erasmus students manage their Erasmus Application Process.
+# Process Onboarding App with Lists for Android-App
+A complete Android App, built to help university students manage their Erasmus Application Process. It guides the user through a series of steps, along with information for each of them and the ability to easily set calendar notifications.
 
 # So, what's this about?
 Back in middle 2016, I developed an Android app as a tool that would help applying Erasmus students in University of Ioannina, to go through the application process. The app was simply called: "Erasmus UOI App". What is Erasmus? See here: https://en.wikipedia.org/wiki/Erasmus_Programme. "UOI" is the acronym for my University.
